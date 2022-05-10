@@ -1,0 +1,26 @@
+{
+  "name": "create-demo",
+  "version": "1.0.0",
+  "description": "An easy way to start a Demo project",
+  "type": "module",
+  "bin": {
+    "create-demo": "outfile.cjs"
+  },
+  "files": [
+    "outfile.cjs",
+    "template"
+  ],
+  "scripts": {
+    "build": "zx ./scripts/build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.15",
+    "kolorist": "^1.5.0",
+    "minimist": "^1.2.5",
+    "prompts": "^2.4.2",
+    "zx": "^6.1.0"
+  },
+  "keywords": [],
+  "author": "changshou83 <1369548156@qq.com>",
+  "license": "MIT"
+}
